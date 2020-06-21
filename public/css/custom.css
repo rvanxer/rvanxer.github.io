@@ -1,0 +1,79 @@
+@media (min-width: 48em) 
+.sidebar-sticky {
+    position: relative;
+}
+
+.content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.page, .post {
+    margin-bottom: 2em;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+hr {
+    margin: 0.5em 0;
+    border: none; 
+}
+
+.sidebar-about h1 {
+    font-size: 3em;
+}
+
+.sidebar-about h1 a {
+    text-decoration: none;
+}
+
+.cover-photo {
+    max-width: 300px;
+    min-width: 200px;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: #b9b9b9 3px 3px 10px;
+}
+
+.social-media-box img {
+    display: inline-block;
+    height: 40px;
+    margin: 0 5px;
+    transition: transform 0.2s;
+}
+
+.social-media-box img:hover {
+    transform: scale(1.2);
+}
+
+.card {
+    margin: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+    background: #fdfdfd;
+    box-shadow: #e8e8e8 3px 3px 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    box-shadow: #b2b2b2 3px 3px 10px;
+    transform: scale(1.01);
+}
+
+.card.article {
+    font-size: 16px;
+}
+
+.card.article p {
+    margin: 0.5em;
+}
+
+.article-title a {
+    color: #000;
+    text-decoration: none;
+}
+
+.article-title a:hover {
+    text-decoration: underline;
+    text-decoration-color: darkgray;
+}

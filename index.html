@@ -1,37 +1,104 @@
 ---
 layout: default
-title: Home
+title: Hi there! Rajat here.
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
+  <!-- ABOUT PAGE --------------------------------------------------------- -->
+  <div class="page" id="about">
+    <h1>
+      Hi there, Rajat here!
     </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+    <img class="cover-photo" src="./public/img/main-pic-1x1.jpg" alt-text="Professional photo">
+    <h2>About me</h2>
+    <p>
+      I'm a first year Ph.D. candidate in the Lyles School of Civil Engineering at <a href="https://www.purdue.edu/">Purdue University</a>, West Lafayette, IN. My advisor is <a href="http://www.satishukkusuri.com/">Dr. Satish Ukkusuri</a>.
+    </p>
+    <h2>Research interests</h2>
+    <ul>
+      <li>
+        I'm interested in stuyding <b>urban mobility dynamics</b>, including the properties of <b>transportation networks</b>.
+      </li>
+      <li>
+        I'm also into <b>data analysis</b>, especially expolatory analysis and visualization.
+      </li>
+      <li>
+        I'm currently exploring different options related to these fields for detailed investigation for my thesis.
+      </li>
+    </ul>
+    <h2>Education</h2>
+    <ul>
+      <li>
+        I completed my Master's program at <a href="https://msu.edu/">Michigan State University</a>, where I was supervised by <a href="https://www.egr.msu.edu/people/profile/gatestim">Dr. Timothy Gates</a>.
+      </li>
+      <li>
+        I did my Bachelor's at the <a href="https://www.iitr.ac.in/">Indian Institute of Technology Roorkee</a>, where I was advised by <a href="https://www.iitr.ac.in/departments/CE/pages/People+Faculty+Indrajit_Ghosh.html">Dr. Indrajit Ghosh</a>.
+      </li>
+    </ul>
   </div>
-  {% endfor %}
-</div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+  <!-- RESEARCH PAGE ------------------------------------------------------ -->
+  <div class="page" id="research">
+    <h1 id="research">Research</h1>
+    <h2 id="publications">Publications</h2>
+      <h3>Peer-reviewed Journals</h3>
+      <div class="card-list">
+        <div class="card article">
+          <p class="article-title">Estimating large-scale vehicular emission incorporating network-wide fundamental diagram for heterogeneous vehicles: Comparison of support vector and non-linear regression models.</p>
+          <p class="article-authors">
+            <a href="https://scholar.google.com/citations?user=pJpIOZ4AAAAJ&hl=en&oi=ao">Saedi, R.</a>, <b>Verma, R.</b>, <a href="https://scholar.google.com/citations?user=53hqOi0AAAAJ&hl=en&oi=ao">Zockaei, A.</a>, <a href="https://scholar.google.com/citations?user=1-8C8WoAAAAJ&hl=en">Ghamami, M.</a>, <a href="https://scholar.google.com/citations?user=3DYOtYgAAAAJ&hl=en&oi=ao">Gates, T.J.</a>
+          <p class="article-journal">Transportation Research Record (Accepted Feb <b>2020</b>)</p>
+          </p>
+        </div>
+        <div class="card article">
+          <p class="article-title"><a href="https://journals.sagepub.com/doi/abs/10.1177/0361198119850131">Behavioral analysis of drivers following winter maintenance trucks enabled with collision avoidance system.</a></p>
+          <p class="article-authors">
+            <b>Verma, R.</b>, <a href="https://scholar.google.com/citations?user=pJpIOZ4AAAAJ&hl=en&oi=ao">Saedi, R.</a>, <a href="https://scholar.google.com/citations?user=53hqOi0AAAAJ&hl=en&oi=ao">Zockaie, A.</a>, <a href="https://scholar.google.com/citations?user=3DYOtYgAAAAJ&hl=en&oi=ao">Gates, T.J.</a>
+          </p>
+          <p class="article-journal">Transportation Research Record, vol. 2673, issue 10 (<b>2019</b>)</p>
+        </div>
+      </div>
+      <h3>Conference papers</h3>
+      <div class="card-list">
+        <div class="card article">
+          <p class="article-title"><a href="https://www.sciencedirect.com/science/article/pii/S2214140518302263">A framework for incorporating the network fundamental diagram into large-scale emission estimation.</a></p>
+          <p class="article-authors">
+            <a href="https://scholar.google.com/citations?user=pJpIOZ4AAAAJ&hl=en&oi=ao">Saedi, R.</a>, <b>Verma, R.</b>, <a href="https://scholar.google.com/citations?user=53hqOi0AAAAJ&hl=en&oi=ao">Zockaei, A.</a>, <a href="https://scholar.google.com/citations?user=1-8C8WoAAAAJ&hl=en">Ghamami, M.</a>, <a href="https://scholar.google.com/citations?user=3DYOtYgAAAAJ&hl=en&oi=ao">Gates, T.J.</a>
+          </p>
+          <p class="article-journal">Journal of Transport & Health 9, S54-S55 (<b>2018</b>)</p>
+        </div>
+      </div>
+    <h2 id="research-projects">Projects</h2>
+    <h2 id="courses">Courses</h2>
+  </div>
+
+  <!-- PERSONAL PROJECTS -------------------------------------------------- -->
+  <div class="page" id="personal">
+    <h1>Personal projects</h1>
+
+  </div>
+
+  <!-- CONTACT PAGE ------------------------------------------------------- -->
+  <div class="page" id="contact">
+    <h1>Contact</h1>
+    <p>
+      <b>Office</b>:
+      Room 2155, Lyles School of Civil Engineering, Purdue University
+      550 Stadium Mall Drive, West Lafayette, IN 47907
+    </p>
+    <p>
+      <b>Email</b>: verma99@purdue.edu [<a href="mailto:verma99@purdue.edu">link</a>]
+    </p>
+    <p>
+      <b>Social media</b>:
+      <div class="social-media-box">
+        <a href="https://www.linkedin.com/in/rajat-verma-msu/"><img src="/public/img/icon-linkedin.png"></a>
+        <a href="https://www.facebook.com/emphasent/"><img src="/public/img/icon-facebook.png"></a>
+        <a href="https://twitter.com/emphasent"><img src="/public/img/icon-twitter.png"></a>
+        <a href="https://github.com/rvanxer"><img src="/public/img/icon-github.png"></a>
+        <a href="https://www.behance.net/emphasent"><img src="/public/img/icon-behance.png"></a>
+        <a href="https://medium.com/@emphasent"><img src="/public/img/icon-medium.png"></a>
+      </div>
+    </p>
+  </div>
 </div>
