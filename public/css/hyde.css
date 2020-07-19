@@ -90,7 +90,7 @@ html {
 }
 .sidebar-nav-item {
   display: block;
-  line-height: 1.75;
+  line-height: 2;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -130,7 +130,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 60rem;
     margin-left: 20rem;
     margin-right: 2rem;
   }

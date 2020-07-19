@@ -3,14 +3,14 @@
     position: relative;
 }
 
-.content {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+html {
+    font-family: "Avenir Next LT Pro", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    letter-spacing: -0.2px;
 }
 
-.page, .post {
-    margin-bottom: 2em;
-    border-bottom: 2px solid #e6e6e6;
+h1, h2, h3 {
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 
 hr {
@@ -18,7 +18,23 @@ hr {
     border: none; 
 }
 
+.bold {
+    font-weight: 500;
+}
+
+.content {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.page, .post {
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #e6e6e6;
+}
+
 .sidebar-about h1 {
+    font-family: serif;
     font-size: 3em;
 }
 
@@ -46,6 +62,7 @@ hr {
 }
 
 .card {
+    position: relative;
     margin: 15px;
     padding: 10px;
     border-radius: 4px;
@@ -74,6 +91,86 @@ hr {
 }
 
 .article-title a:hover {
+    color: #268bd2;
     text-decoration: underline;
-    text-decoration-color: darkgray;
+}
+
+.card-large {
+    padding: 0;
+}
+
+.card-large .card-thumb {
+    width: 100%;
+    height: 400px;
+    background-size: 100% 400px;
+}
+
+.card-large .card-thumb-filler {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px 4px 0 0;
+    background: #6b6b6b82;
+    transition: background 0.5s;
+}
+
+.card-large .card-thumb-filler:hover {
+    background: none;
+}
+
+.card-large .card-content-container {
+    padding: 5px;
+}
+
+.card-large .card-title {
+    margin: 1rem;
+    text-align: center;
+}
+
+.card-large .card-descr {
+    padding: 0 2rem;
+    font-size: 15px;
+}
+
+.card-tall-small {
+    display: inline-block;
+    width: 250px;
+    height: 270px;
+    margin: 10px;
+}
+
+.card-tall-small .card-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 3px 8px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #737373;
+    background: #d8d8d8;
+    border-radius: 4px;
+}
+
+.card-tall-small .card-content-box {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    min-height: 90px;
+    background: rgb(255 255 255 / 80%);
+    padding-top: 5px;
+}
+
+.card-tall-small img.card-thumb {
+    max-height: 200px;
+    margin: auto;
+    object-fit: contain;
+}
+
+.card-tall-small .card-title {
+    font-size: 18px;
+    margin-bottom: 0.5em;
+}
+
+.card-tall-small .card-descr {
+    font-size: 15px;
 }
