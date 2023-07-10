@@ -31,7 +31,7 @@
 \usepackage{setspace}
 
 %----------------------------------------------------------------------------------------
-%   HEADINGS COMMANDS: Commands for printing name and address
+%	HEADINGS COMMANDS: Commands for printing name and address
 %----------------------------------------------------------------------------------------
 
 \def \name#1{\def\@name{#1}} % Defines the \name command to set name
@@ -75,7 +75,7 @@
 }
 
 %----------------------------------------------------------------------------------------
-%   PRINT THE HEADING LINES
+%	PRINT THE HEADING LINES
 %----------------------------------------------------------------------------------------
 
 \let\ori@document=\document
@@ -91,7 +91,7 @@
 }
 
 %----------------------------------------------------------------------------------------
-%   SECTION FORMATTING
+%	SECTION FORMATTING
 %----------------------------------------------------------------------------------------
 
 % Defines the rSection environment for the large sections within the CV
@@ -111,7 +111,7 @@
 }
 
 %----------------------------------------------------------------------------------------
-%   WORK EXPERIENCE FORMATTING
+%	WORK EXPERIENCE FORMATTING
 %----------------------------------------------------------------------------------------
 
 \newenvironment{rSubsection}[4]{ % 4 input arguments - company name, year(s) employed, job title and location

@@ -7,13 +7,13 @@ title: Hi there! Rajat here.
 
 ## About me
 
-I'm a first year Ph.D. candidate in the Lyles School of Civil Engineering at [Purdue University](https://www.purdue.edu/), West Lafayette, IN. My advisor is [Dr. Satish Ukkusuri](http://www.satishukkusuri.com/).
+I'm a third year Ph.D. candidate in the Lyles School of Civil Engineering at [Purdue University](https://www.purdue.edu/), West Lafayette, IN. My advisor is [Dr. Satish Ukkusuri](http://www.satishukkusuri.com/).
 
 ## Research interests
 
-* I'm interested in stuyding urban mobility dynamics, including the properties of transportation networks.
-* I'm also into **data analysis**, especially expolatory analysis and visualization.
-* I'm currently exploring different options related to these fields for detailed investigation for my thesis.
+* My thesis concerns quantifying the inequity in transportation systems using large-scale datasets in terms of availability of infrastructure, accessibility to places, and mobility patterns of different socioeconomic groups.
+* My subject areas of interest include urban planning and mobility, GIS and network analysis, exploratory data analysis, and machine learning.
+* I mainly work on anonymous smartphone geolocation data and satellite imagery in my works.   
 
 ## Education
 
