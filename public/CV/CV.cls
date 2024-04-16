@@ -98,7 +98,7 @@
 \newenvironment{rSection}[1]{ % 1 input argument - section name
   \sectionskip
   \doublespacing
-  \MakeUppercase{\bf #1} % Section title
+  \MakeUppercase{\textbf{#1}} % Section title
   \sectionlineskip
   \hrule % Horizontal line
   \singlespacing
