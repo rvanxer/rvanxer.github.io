@@ -6,7 +6,7 @@ title: Contact
 
 **Office**:
 
-Room 2155, Lyles School of Civil Engineering, Purdue University
+HAMP B133, Lyles School of Civil Engineering, Purdue University
 
 550 Stadium Mall Drive, West Lafayette, IN 47907
 
