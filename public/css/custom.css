@@ -176,7 +176,7 @@ hr {
     font-size: 15px;
 }
 
-.article-title .active {
+.article-title.active {
     color: #3994D6;
 }
 
