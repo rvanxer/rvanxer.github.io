@@ -175,3 +175,11 @@ hr {
 .card-tall-small .card-descr {
     font-size: 15px;
 }
+
+.article-title .active {
+    color: #3994D6;
+}
+
+.article-authors {
+    font-weight: 500;
+}
