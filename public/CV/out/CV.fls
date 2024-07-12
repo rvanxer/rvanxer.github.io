@@ -1,8 +1,8 @@
-PWD /Users/rv/Library/CloudStorage/OneDrive-purdue.edu/Docs/Code/Personal_Website/rvanxer.github.io/public/CV
+PWD /Users/rv/Library/CloudStorage/OneDrive-purdue.edu/Docs/rvanxer.github.io/public/CV
 INPUT /usr/local/texlive/2023/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/rv/Library/CloudStorage/OneDrive-purdue.edu/Docs/Code/Personal_Website/rvanxer.github.io/public/CV/CV.tex
+INPUT /Users/rv/Library/CloudStorage/OneDrive-purdue.edu/Docs/rvanxer.github.io/public/CV/CV.tex
 OUTPUT out/CV.log
 INPUT ./CV.cls
 INPUT ./CV.cls
