@@ -10,9 +10,10 @@
 \usepackage[left=0.75in,top=1in,right=0.75in,bottom=1in]{geometry}
 \usepackage{hyperref}
 \usepackage{etaremune}
+\usepackage{fontspec}
 \usepackage[T1]{fontenc}
+\setmainfont{CMU Bright}
 \usepackage{titlesec}
-% \usepackage{garamondx}
 \usepackage{enumitem}
 \hypersetup{colorlinks=true, urlcolor=blue}
 \usepackage{parskip}
@@ -26,7 +27,11 @@
 \name{Rajat Verma}
 % \company{Lyles School of Civil Engineering}
 \address{Purdue University, West Lafayette, IN 47907} % secondary address
-\address{+1(517)481-0901 \\ \href{mailto:verma99@purdue.edu}{verma99@purdue.edu}} % phone number and email
+\address{+1(517)481-0901 \\
+\href{mailto:verma99@purdue.edu}{verma99@purdue.edu} \\
+\href{https://rvanxer.github.io}{rvanxer.github.io} \\
+\href{https://www.linkedin.com/in/rajat-verma-msu}{LinkedIn} \\
+\href{https://scholar.google.com/citations?user=eUl1nl8AAAAJ&hl}{Google Scholar}} % phone number and email
 \address{Lyles School of Civil and Construction Engineering} % primary address
 % \setmainfont[Ligatures=TeX]{Lora-Regular}
 
@@ -66,14 +71,14 @@
     \begin{itemize}[noitemsep]
         \item Developed the \href{https://github.com/rvanxer/spr_4711}{Spatial Accessibility of America} repository of multiple spatial accessibility metrics for the 50 largest urban areas of the U.S.
         % \item Leading a project on equity investment potential analysis in Indiana using the in-house dashboard tool – \href{https://tableau.it.purdue.edu/t/public/views/IndianaTransportationEquityAtlas/DashLong}{Indiana Transportation Equity Atlas} (ITEA).
-        \item Multiple guest lectures in CE 569 (Smart Logistics) and CE 614 (Statistical and Econometric Methods I).
+        \item Multiple guest lectures in CE569 ({\em Smart Logistics}) \& CE614 ({\em Statistical \& Econometric Methods I}).
     \end{itemize}
     
     % Purdue TA
     {\bf Teaching Assistant} \hfill {8/2023 – 12/2023}
     \\ Purdue University \hfill {\em West Lafayette, IN}
     \begin{itemize}[noitemsep]
-        \item Course {\em CE 597: Data Science for Smart Cities}, instructed by Dr. Satish V. Ukkusuri.
+        \item Course {\em CE597: Data Science for Smart Cities}, instructed by Dr. Satish V. Ukkusuri.
         \item Development and instruction of 6 introductory tutorial sessions for using Python for data analytics in Jupyter Lab in addition to other duties (office hours, grading, etc.).
     \end{itemize}
     
@@ -81,7 +86,7 @@
     {\bf Graduate Research Assistant} \hfill {8/2019 – 7/2024}
     \\ Purdue University \hfill {\em West Lafayette, IN}
     \begin{itemize}[noitemsep]
-        \item Worked on a collection of projects to assess human mobility patterns at scale and their applications in travel demand forecasting (\href{https://doi.org/10.5703/1288284317685}{link}), assessment of accessibility to opportunities (\href{https://rip.trb.org/View/2057911}{link}), and evacuation modeling (\href{https://www.nsf.gov/awardsearch/showAward?AWD_ID=1520338}{link}). Projects sponsored by the National Science Foundation (NSF) and the Indiana Department of Transportation (INDOT).
+        \item Worked on a collection of projects to assess human mobility patterns at scale and their applications in \href{https://doi.org/10.5703/1288284317685}{travel demand forecasting}, assessment of \href{https://rip.trb.org/View/2057911}{accessibility to opportunities}, and  \href{https://www.nsf.gov/awardsearch/showAward?AWD_ID=1520338}{evacuation modeling}. Projects sponsored by the National Science Foundation (NSF) and the Indiana Department of Transportation (INDOT).
         \item Major outcomes/contributions include \href{https://umnilab.github.io/HSEES_doc/}{A-RESCUE 3.0} (a Java-based evacuation micro traffic simulator), \href{https://github.com/rvanxer/mk}{mobilkit+} (a Spark-based Python toolkit for processing high-volume passively collected smartphone GPS data), and Indiana Transportation Equity Atlas (an equity screening tool developed in collaboration with INDOT).
     \end{itemize}
     
@@ -140,6 +145,13 @@
         
         \item Saedi, R., \textbf{Verma, R.}, Zockaei, A., Ghamami, M. \& Gates, T.J. A framework for incorporating the network fundamental diagram into large-scale emission estimation. \textit{Journal of Transport \& Health} 9, S54-S55 (2018). doi: \href{https://www.sciencedirect.com/science/article/abs/pii/S2214140518302263}{10.1016/j.jth.2018.05.041}
     \end{etaremune}
+
+    \subsection*{ArXiv}
+    \begin{etaremune}
+        \item \textbf{Verma, R.}, Debnath, M., Mittal, S. \& Ukkusuri, S.V. Towards a generalized accessibility measure for transportation equity and efficiency. Economics ArXiv (2024). doi: \href{https://arxiv.org/abs/2404.04985}{arXiv:2404.04985}
+        
+        \item \textbf{Verma, R.}, Ka, E. \& Ukkusuri, S.V. Long-term forecasts of statewide travel demand patterns using large-scale mobile phone GPS data: A case study of Indiana. Economics ArXiv (2024). doi: \href{https://arxiv.org/abs/2404.13211}{arXiv:2404.13211}
+    \end{etaremune}
     
     \subsection*{Articles in Review}
     \begin{etaremune}
@@ -147,11 +159,8 @@
                
         \item Siebeneck, L., Lei, Z., Sharma, P., \textbf{Verma, R.}, Osazuwa-Peters, P. \& Ukkusuri, S.V. After Hurricane Ida: Evacuation decisions post-disaster. Under review in \textit{Journal of Homeland Security and Emergency Management} (2024).
     \end{etaremune}
-
-    % -------------------------------
-    % Papers in progress
-    % -------------------------------
-    \subsection*{ArXiv and Under-Preparation}
+    
+    \subsection*{Under-Preparation}
     \begin{etaremune}
         \item \textbf{Verma, R.}, Mittal, S. \& Ukkusuri, S.V. Spatial Access of America: Multiple indicators of accessibility to opportunities.
         
@@ -159,10 +168,7 @@
         
         \item \textbf{Verma, R.} \& Ukkusuri, S.V. Vehicular emission equity estimation using mobile phone geolocation data.
         
-        % \item \textbf{Verma, R.}, Debnath, M., Mittal, S. \& Ukkusuri, S.V. Towards a generalized accessibility measure for transportation equity and efficiency. Economics ArXiv (2024). doi: \href{https://arxiv.org/abs/2404.04985}{arXiv:2404.04985}
-    
-        \item \textbf{Verma, R.}, Ka, E. \& Ukkusuri, S.V. Long-term forecasts of statewide travel demand patterns using large-scale mobile phone GPS data: A case study of Indiana. Economics ArXiv (2024). doi: \href{https://arxiv.org/abs/2404.13211}{arXiv:2404.13211}
-        % \\ Submitted to \textit{Transportation Research Record}.
+        \item Tumula, R., \textbf{Verma, R.}, Gkritza, K. \& Ukkusuri, S.V. Breathing in the burden: Health inequity due to traffic-related air pollution. Under review in \textit{Journal of Transport and Health} (2024).
     \end{etaremune}
 \end{rSection}
 
@@ -309,7 +315,7 @@
     \\ College of Engineering, Purdue University (\$2,000) \\
     % Yoder Award
     \\ \textbf{Eldon J. Yoder Memorial Award} \hfill {9/2023}
-    \\ Outstanding Graduate Student in Transportation Eningeering (\$750)
+    \\ Outstanding Graduate Student in Transportation Engineering (\$750)
     \\ Lyles School of Civil Engineering, Purdue University \\
     % Best ITE Student Chapter
     \\ \textbf{Best ITE Student Chapter Award} \hfill {8/2023}
@@ -410,13 +416,13 @@
             Spanish (elementary)
         \\ Technical writing: \>
             \href{https://en.wikipedia.org/wiki/LaTeX}{LaTeX}$^*$,
-            \href{https://en.wikipedia.org/wiki/Markdown}{Markdown}$^*$
+            \href{https://en.wikipedia.org/wiki/Markdown}{Markdown}$^*$,
             \href{https://en.wikipedia.org/wiki/Microsoft_Word}{Word}$^*$
         \\ Graphic/UI designing: \>
-            \href{https://en.wikipedia.org/wiki/AutoCAD}{AutoCAD}
-            \href{https://en.wikipedia.org/wiki/Canva}{Canva}$^*$
-            \href{https://en.wikipedia.org/wiki/Figma}{Figma}$^*$
-            \href{https://en.wikipedia.org/wiki/Adobe_Illustrator}{Illustrator}$^*$
+            \href{https://en.wikipedia.org/wiki/AutoCAD}{AutoCAD},
+            \href{https://en.wikipedia.org/wiki/Canva}{Canva}$^*$,
+            \href{https://en.wikipedia.org/wiki/Figma}{Figma}$^*$,
+            \href{https://en.wikipedia.org/wiki/Adobe_Illustrator}{Illustrator}$^*$,
             \href{https://en.wikipedia.org/wiki/Adobe_Photoshop}{Photoshop}$^*$
     \end{tabbing}
     \end{spacing}
@@ -424,42 +430,42 @@
 \end{rSection}
 
 % REFERENCES %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{rSection}{References}
-    \begin{tabbing}
-    Dr. \textbf{Satish V. Ukkusuri} \\
-    Reilly Professor of Civil Engineering \\
-    Purdue University \\ 
-    Lyles School of Civil and Construction Engineering \\
-    550 West Stadium Avenue, West Lafayette, IN 47907 \\
-    Phone: +1-650-454-0637 \\
-    Email: \href{mailto:sukkusur@purdue.edu}{sukkusur@purdue.edu} \\
+% \begin{rSection}{References}
+%     \begin{tabbing}
+%     Dr. \textbf{Satish V. Ukkusuri} \\
+%     Reilly Professor of Civil Engineering \\
+%     Purdue University \\ 
+%     Lyles School of Civil and Construction Engineering \\
+%     550 West Stadium Avenue, West Lafayette, IN 47907 \\
+%     Phone: +1-650-454-0637 \\
+%     Email: \href{mailto:sukkusur@purdue.edu}{sukkusur@purdue.edu} \\
     
-    \\ Dr. \textbf{Konstantina `Nadia' Gkritza} \\
-    Professor of Civil Engineering and Agricultural and Biological Engineering \\
-    Purdue University \\ 
-    Lyles School of Civil and Construction Engineering \\
-    550 West Stadium Avenue, West Lafayette, IN 47907 \\
-    Phone: +1-765-494-4597 \\
-    Email: \href{mailto:nadia@purdue.edu}{nadia@purdue.edu} \\
+%     \\ Dr. \textbf{Konstantina `Nadia' Gkritza} \\
+%     Professor of Civil Engineering and Agricultural and Biological Engineering \\
+%     Purdue University \\ 
+%     Lyles School of Civil and Construction Engineering \\
+%     550 West Stadium Avenue, West Lafayette, IN 47907 \\
+%     Phone: +1-765-494-4597 \\
+%     Email: \href{mailto:nadia@purdue.edu}{nadia@purdue.edu} \\
 
-    \\ Dr. \textbf{Takahiro Yabe} \\
-    Assistant Professor \\
-    New York University \\
-    Tandon School of Engineering \\
-    Department of Technology Management and Innovation (TMI) \& \\
-    Center for Urban Science and Progress (CUSP) \\
-    Phone: +1-773-383-3510 \\
-    Email: \href{mailto:takahiroyabe@nyu.edu}{takahiroyabe@nyu.edu} \\
+%     \\ Dr. \textbf{Takahiro Yabe} \\
+%     Assistant Professor \\
+%     New York University \\
+%     Tandon School of Engineering \\
+%     Department of Technology Management and Innovation (TMI) \& \\
+%     Center for Urban Science and Progress (CUSP) \\
+%     Phone: +1-773-383-3510 \\
+%     Email: \href{mailto:takahiroyabe@nyu.edu}{takahiroyabe@nyu.edu} \\
 
-    \\ Dr. \textbf{Indrajit Ghosh} \\
-    Professor of Civil Engineering \\
-    Indian Institute of Technology Roorkee \\ 
-    % Department of Civil Engineering \\
-    Roorkee - Haridwar Highway, Roorkee, Uttarakhand 247667, India \\
-    Phone: +91-1332-285533 \\
-    Email: \href{mailto:indrajit.ghosh@ce.iitr.ac.in}{indrajit.ghosh@ce.iitr.ac.in} \\
-    \end{tabbing}
-\end{rSection}
+%     \\ Dr. \textbf{Indrajit Ghosh} \\
+%     Professor of Civil Engineering \\
+%     Indian Institute of Technology Roorkee \\ 
+%     % Department of Civil Engineering \\
+%     Roorkee - Haridwar Highway, Roorkee, Uttarakhand 247667, India \\
+%     Phone: +91-1332-285533 \\
+%     Email: \href{mailto:indrajit.ghosh@ce.iitr.ac.in}{indrajit.ghosh@ce.iitr.ac.in} \\
+%     \end{tabbing}
+% \end{rSection}
 
 \vspace*{\fill}
 \centering Updated \today
