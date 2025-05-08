@@ -1,6 +1,6 @@
 # Fdb version 4
-["lualatex"] 1737651321 "/Users/rv/Library/CloudStorage/OneDrive-purdue.edu/Docs/rvanxer.github.io/public/CV/CV.tex" "out/CV.pdf" "CV" 1737651322 0
-  "/Users/rv/Library/CloudStorage/OneDrive-purdue.edu/Docs/rvanxer.github.io/public/CV/CV.tex" 1737651321 33919 b89039d3a0c61833307b40b1e2f93170 ""
+["lualatex"] 1738489188 "/Users/rv/Library/CloudStorage/OneDrive-purdue.edu/Docs/rvanxer.github.io/public/CV/CV.tex" "out/CV.pdf" "CV" 1738489189 0
+  "/Users/rv/Library/CloudStorage/OneDrive-purdue.edu/Docs/rvanxer.github.io/public/CV/CV.tex" 1738489188 33990 00d8f42c63da0da783be5bf4c4eb33c1 ""
   "/Users/rv/Library/Fonts/cmunbmo.ttf" 1588552156 185780 8f36d783b9d615f8ae79f3ad9ba7ddd6 ""
   "/Users/rv/Library/Fonts/cmunbmr.ttf" 1588552156 145840 ab3d145179022fb663f55f6a94e39ea8 ""
   "/Users/rv/Library/Fonts/cmunbsr.ttf" 1588552156 146988 fe15c35d2a72cadac6384775a4a6bd3f ""
@@ -139,9 +139,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1709297526 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt" 1709297520 11875970 14656b5f40cd09dfa780157f1457711e ""
   "CV.cls" 1733412685 4857 fe730f98d79f4409ab4190ec973709c0 ""
-  "CV.tex" 1737651321 33919 b89039d3a0c61833307b40b1e2f93170 ""
-  "out/CV.aux" 1737651322 687 5fa402026d22e717251abed02d8e1fe9 "lualatex"
-  "out/CV.out" 1737651322 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
+  "CV.tex" 1738489188 33990 00d8f42c63da0da783be5bf4c4eb33c1 ""
+  "out/CV.aux" 1738489189 710 8d40bf49b031301a141d411556b472cf "lualatex"
+  "out/CV.out" 1738489189 0 d41d8cd98f00b204e9800998ecf8427e "lualatex"
   (generated)
   "out/CV.aux"
   "out/CV.log"
